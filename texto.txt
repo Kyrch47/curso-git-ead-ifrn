@@ -1,1 +1,2 @@
 aquivo texto.txt (editado na main)
+aquivo texto.txt (editado na feature-1)
