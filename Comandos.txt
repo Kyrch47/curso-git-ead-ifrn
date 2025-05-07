@@ -1,0 +1,40 @@
+Aurinildo Leão Carlos Neto
+
+
+git clone https://gitlab.com/mizael.cortez/curso-branchs-ifrn-ead
+
+git add .
+
+git commit -m "adiciona arquivo texto.txt"
+
+git checkout -b feature-1
+
+git branch
+
+git add .
+
+git commit -m "edita texto.txt"
+
+git checkout main
+
+git add .
+
+git commit -m "edita texto.txt"
+
+git merge feature-1
+
+git add .
+
+git commit -m "resolve o conflito no texto.txt"
+
+git branch add-comandos
+
+git add .
+
+git commit -m "adiciona comandos utilizados"
+
+git remote add origin-atividade git@github.com:Kyrch47/curso-git-ead-ifrn.git
+
+git push origin-atividade main
+
+git push origin-atividade add-comandos
